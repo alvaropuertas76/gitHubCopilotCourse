@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "my-react-dotnet-app", "my-react-dotnet-app", "{E337C4F9-DEEE-817A-8FBF-54D13E730682}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "my-react-dotnet-app", "my-react-dotnet-app\backend\my-react-dotnet-app.csproj", "{66784CD2-488B-5152-72BC-3312D4C8D490}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66784CD2-488B-5152-72BC-3312D4C8D490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66784CD2-488B-5152-72BC-3312D4C8D490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66784CD2-488B-5152-72BC-3312D4C8D490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66784CD2-488B-5152-72BC-3312D4C8D490}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{66784CD2-488B-5152-72BC-3312D4C8D490} = {E337C4F9-DEEE-817A-8FBF-54D13E730682}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E415D55-A0C3-42F3-BDDD-702658B339BB}
+	EndGlobalSection
+EndGlobal

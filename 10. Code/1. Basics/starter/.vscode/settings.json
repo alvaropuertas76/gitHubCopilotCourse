@@ -1,0 +1,4 @@
+{
+    "dotnet.testWindow.enableTestExplorerDiff": true,
+    "testing.followRunningTest": true
+}

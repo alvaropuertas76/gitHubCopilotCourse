@@ -1,0 +1,37 @@
+<!--
+   HTML for Chrome extension that clears browser cache.
+   Connect to javascript file called popup.js and CSS file called style.css
+   Will render the following buttons with id's:
+   - "All History"
+   - "Past Month"
+   - "Past Week"
+   - "Past Day"
+   - "Past Hour"
+   - "Past Minute"
+
+
+   Will render an empty paragraph with id "lastCleared"
+-->   
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clear Cache</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Clear Cache</h1>
+        <button id="allHistory">All History</button>
+        <button id="pastMonth">Past Month</button>
+        <button id="pastWeek">Past Week</button>
+        <button id="pastDay">Past Day</button>
+        <button id="pastHour">Past Hour</button>
+        <button id="pastMinute">Past Minute</button>
+        <p id="lastCleared"></p>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

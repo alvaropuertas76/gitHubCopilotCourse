@@ -1,0 +1,30 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "coreclr",
+      "request": "launch",
+      "name": "Launch .NET Backend",
+      "program": "${workspaceFolder}/my-react-dotnet-app/backend/bin/Debug/net6.0/${input:backendDll}",
+      "args": [],
+      "cwd": "${workspaceFolder}/my-react-dotnet-app/backend",
+      "stopAtEntry": false,
+      "preLaunchTask": "build-backend"
+    },
+    {
+      "type": "pwa-chrome",
+      "request": "launch",
+      "name": "Launch React Frontend",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/my-react-dotnet-app/frontend/src",
+      "preLaunchTask": "start-frontend"
+    }
+  ],
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "backendDll",
+      "description": "Enter the name of the backend DLL (e.g., my-react-dotnet-app.dll)"
+    }
+  ]
+}

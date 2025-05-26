@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build WeatherApi",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/src/WeatherApi/WeatherApi.csproj"
+      ],
+      "problemMatcher": "$msCompile"
+    }
+  ],
+  "preLaunchTask": "build WeatherApi"
+}

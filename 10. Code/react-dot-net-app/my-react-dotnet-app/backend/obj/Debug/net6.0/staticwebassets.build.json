@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "x2s8TGSmqZevHgGIkdxpuZ/orUQXe0W4MloooAglYpc=",
+  "Source": "my-react-dotnet-app",
+  "BasePath": "_content/my-react-dotnet-app",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

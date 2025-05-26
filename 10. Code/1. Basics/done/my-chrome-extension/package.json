@@ -1,0 +1,13 @@
+{
+  "name": "cache-cleaner",
+  "version": "1.0.0",
+  "description": "Chrome extension to clear browser cache",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^3.1.0"
+  }
+}

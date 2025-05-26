@@ -1,0 +1,11 @@
+{
+  "servers": {
+    "weather-mcp-server": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "C:\\Users\\ruben\\source\\courses\\Github Copilot\\knowmadmood-github-copilot\\10. Code\\mcp server//src//index.js"
+      ]
+    }
+  }
+}
